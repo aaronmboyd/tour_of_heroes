@@ -14,7 +14,7 @@ require('rxjs/add/operator/toPromise');
 var HeroService = (function () {
     function HeroService(http) {
         this.http = http;
-        this.heroesUrl = 'api/heroes';
+        this.heroesUrl = './api/heroes';
     }
     ;
     HeroService.prototype.getHeroes = function () {
