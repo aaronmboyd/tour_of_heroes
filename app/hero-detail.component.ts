@@ -36,4 +36,6 @@ export class HeroDetailComponent implements OnInit
 		.then(() => this.goBack());
 	}
 
+	
+
 }
